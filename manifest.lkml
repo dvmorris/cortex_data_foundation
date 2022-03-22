@@ -8,7 +8,7 @@ project_name: "cortex_data_foundation"
 # }
 
 constant: CONNECTION_NAME {
-  value: "lucias-sap-bq"
+  value: "davemorris_cortex_poc"
   export: override_required
 }
 
