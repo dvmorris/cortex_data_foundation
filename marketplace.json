@@ -16,7 +16,7 @@
   },
   "models": [
     {
-      "name": "cortex_data_foundation",
+      "name": "cortex_data_foundation_dave",
       "connection_constant": "CONNECTION_NAME"
     }
   ]
