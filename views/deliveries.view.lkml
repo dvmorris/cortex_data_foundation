@@ -1666,7 +1666,7 @@ view: deliveries {
     sql: ${TABLE}.MaterialNumber_MATNR ;;
     link: {
       label: "Product Snapshot"
-      url: "/dashboards-next/cortex_data_foundation::product_snapshot?Product%20Number={{ filterable_value | url_encode }}"
+      url: "/dashboards-next/cortex_data_foundation_dave::product_snapshot?Product%20Number={{ filterable_value | url_encode }}"
       icon_url: "http://www.looker.com/favicon.ico"
     }
   }

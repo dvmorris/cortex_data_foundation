@@ -5,7 +5,7 @@
   elements:
   - title: Navigation Bar
     name: Navigation Bar
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: single_value
     fields: [sales_orders.dash_nav]
@@ -42,7 +42,7 @@
     height: 2
   - title: Customer Name
     name: Customer Name
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: single_value
     fields: [customers_md.customer_name]
@@ -85,7 +85,7 @@
     height: 2
   - title: Customer Number
     name: Customer Number
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: single_value
     fields: [customers_md.customer_number]
@@ -128,7 +128,7 @@
     height: 2
   - title: Country
     name: Country
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: looker_map
     fields: [countries_t005_delivery.country_name]
@@ -215,7 +215,7 @@
     height: 7
   - title: Order Items Details
     name: Order Items Details
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: looker_grid
     fields: [sales_orders.sales_document, sales_orders.item, sales_orders.order_date,
@@ -262,7 +262,7 @@
     height: 10
   - title: All Deliveries Completed?
     name: All Deliveries Completed?
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: single_value
     fields: [sales_pending_delivery_per_order.is_order_delivery_completed]
@@ -300,7 +300,7 @@
     height: 2
   - title: Returned Items Details
     name: Returned Items Details
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: looker_grid
     fields: [sales_orders.sales_document, sales_orders.item, sales_orders.order_date,
@@ -357,7 +357,7 @@
     height: 2
   - title: Delivery Address
     name: Delivery Address
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: looker_single_record
     fields: [customers_md_ship_to.address, customers_md_ship_to.city, customers_md_ship_to.postal_code,
@@ -435,7 +435,7 @@
       type: advanced
       display: popover
       options: []
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     listens_to_filters: []
     field: sales_orders.sales_document

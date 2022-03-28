@@ -710,7 +710,7 @@ view: sales_orders {
     sql: ${TABLE}.SalesDocument_VBELN ;;
     link: {
       label: "Order Snapshot"
-      url: "/dashboards-next/cortex_data_foundation::order_snapshot?Sales%20Order={{ filterable_value | url_encode }}"
+      url: "/dashboards-next/cortex_data_foundation_dave::order_snapshot?Sales%20Order={{ filterable_value | url_encode }}"
       icon_url: "http://www.looker.com/favicon.ico"
     }
   }

@@ -24,7 +24,7 @@
     height: 2
   - title: Navigation Bar
     name: Navigation Bar
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: single_value
     fields: [sales_orders.dash_nav]
@@ -61,7 +61,7 @@
     height: 2
   - title: Total Customers
     name: Total Customers
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: single_value
     fields: [customers_md.count]
@@ -88,7 +88,7 @@
     height: 2
   - title: Historical Revenue
     name: Historical Revenue
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: looker_line
     fields: [sales_orders.order_date, sales_orders.total_sales_order_org_currency]
@@ -141,7 +141,7 @@
     height: 7
   - title: Orders
     name: Orders
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: single_value
     fields: [sales_orders.total_sales_orders, sales_orders.order_year]
@@ -178,7 +178,7 @@
     height: 2
   - title: Revenue
     name: Revenue
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: single_value
     fields: [sales_orders.total_sales_order_org_currency, sales_orders.order_year]
@@ -217,7 +217,7 @@
     height: 2
   - title: Historical Orders & Order Qtys
     name: Historical Orders & Order Qtys
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: looker_line
     fields: [sales_orders.order_date, sales_orders.total_cumulative_order_quantity,
@@ -277,7 +277,7 @@
     height: 7
   - title: Delayed Deliveries
     name: Delayed Deliveries
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: looker_grid
     fields: [sales_orders.sales_document, material_md.material_number, material_md.material_text,
@@ -356,7 +356,7 @@
     height: 7
   - title: Product Stock vs Pending Deliveries
     name: Product Stock vs Pending Deliveries
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: looker_grid
     fields: [material_md.material_text, sales_pending_delivery_per_order_item.total_pending_delivery,
@@ -445,7 +445,7 @@
     height: 3
   - title: Returns Rate
     name: Returns Rate
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     type: single_value
     fields: [deliveries.delivery_return_percentage]
@@ -517,7 +517,7 @@
       type: checkboxes
       display: popover
       options: []
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     listens_to_filters: []
     field: product_hierarchy_md.product_category
@@ -531,7 +531,7 @@
       type: tag_list
       display: popover
       options: []
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     listens_to_filters: []
     field: material_md.material_number
@@ -545,7 +545,7 @@
       type: tag_list
       display: popover
       options: []
-    model: cortex_data_foundation
+    model: cortex_data_foundation_dave
     explore: sales_orders
     listens_to_filters: []
     field: material_md.material_text

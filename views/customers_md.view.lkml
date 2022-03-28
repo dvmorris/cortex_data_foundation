@@ -338,7 +338,7 @@ view: customers_md {
     sql: ${TABLE}.CustomerNumber_KUNNR ;;
     link: {
       label: "Customer Snapshot"
-      url: "/dashboards-next/cortex_data_foundation::customer_snapshot?Customer%20Number={{ filterable_value | url_encode }}"
+      url: "/dashboards-next/cortex_data_foundation_dave::customer_snapshot?Customer%20Number={{ filterable_value | url_encode }}"
       icon_url: "http://www.looker.com/favicon.ico"
     }
   }
@@ -679,12 +679,12 @@ view: customers_md {
     sql: ${TABLE}.Name1_NAME1 ;;
     link: {
       label: "Customer Snapshot"
-      url: "/dashboards-next/cortex_data_foundation::customer_snapshot?Customer%20Name={{ filterable_value | url_encode }}"
+      url: "/dashboards-next/cortex_data_foundation_dave::customer_snapshot?Customer%20Name={{ filterable_value | url_encode }}"
       icon_url: "http://www.looker.com/favicon.ico"
     }
     link: {
       label: "Order Fulfilment for Customer"
-      url: "/dashboards-next/cortex_data_foundation::order_fulfillment?Customer%20Name={{ filterable_value | url_encode }}"
+      url: "/dashboards-next/cortex_data_foundation_dave::order_fulfillment?Customer%20Name={{ filterable_value | url_encode }}"
       icon_url: "http://www.looker.com/favicon.ico"
     }
   }

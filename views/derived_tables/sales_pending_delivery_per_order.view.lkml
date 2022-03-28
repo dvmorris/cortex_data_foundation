@@ -1,5 +1,5 @@
 # If necessary, uncomment the line below to include explore_source.
-# include: "cortex_data_foundation.model.lkml"
+# include: "cortex_data_foundation_dave.model.lkml"
 
 view: sales_pending_delivery_per_order {
   derived_table: {
